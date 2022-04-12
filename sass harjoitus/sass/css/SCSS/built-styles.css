@@ -1,0 +1,81 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  border-top-color: pink;
+}
+header h1 {
+  color: pink;
+}
+header ul li::before {
+  color: pink;
+}
+
+h1 {
+  color: red;
+}
+
+main {
+  border-top: 1px solid #99cc00;
+}
+
+footer {
+  border-top-color: pink;
+  clear: both;
+  border-top: 1px solid #99cc00;
+  padding-top: 1rem;
+}
+footer h1 {
+  color: pink;
+}
+footer ul li::before {
+  color: pink;
+}
+footer span {
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: #99cc00;
+}
+
+.left {
+  border-top-color: red;
+  float: left;
+  width: 20%;
+}
+.left h1 {
+  color: red;
+}
+.left ul li::before {
+  color: red;
+}
+.left ul {
+  list-style: none;
+  /* Remove default bullets */
+}
+.left ul li::before {
+  content: "•";
+  color: #99cc00;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.right {
+  float: left;
+  width: 80%;
+  padding: 1rem;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #000;
+}
+
+/*# sourceMappingURL=built-styles.css.map */
