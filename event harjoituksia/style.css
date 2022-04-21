@@ -1,0 +1,14 @@
+.special {
+    font-size: 10em;
+    background-color: crimson;
+    display: inline-block
+}
+.textcolor{
+    color:pink
+}
+.textbg{
+    background-color:aquamarine
+}
+.invalid {
+    background-color: red;
+}
