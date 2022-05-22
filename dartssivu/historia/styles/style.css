@@ -1,0 +1,38 @@
+[class^="col"] {
+  border: 1px solid green;
+  background-color: tomato;
+}
+
+[class^="navbar"] {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+[class^="h1"] {
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  margin-bottom: 45px;
+  text-shadow: 0 0 6px white;
+  font-family: 'Georgia', cursive;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Georgia', cursive;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: lightgreen;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
